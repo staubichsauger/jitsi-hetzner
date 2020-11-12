@@ -30,7 +30,7 @@ Have a look at the ```user-data/*.js``` files to see if the settings are as desi
 ## Deployment
 Run ```terraform init``` when deploying for the first time. Afterwards run the ```start.sh``` script. Check the changes before typing ```yes``` at the apply step.
 
-Wait until the init script has finished. Use <CTRL + C> to get bach to the terminal.
+Wait until the init script has finished. Use <CTRL + C> to get back to the terminal.
 
 Once you don't need the server any more, run the ```stop.sh``` script. This will copy the letsencrypt certificate to the ```tmp``` folder, inside a ```certs.zip``` file. This will be provisioned to the server the next time you run the ```start.sh``` script to reuse the certificate and avoid hitting letsencrypt's rate limit.
 
