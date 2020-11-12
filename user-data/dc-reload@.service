@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh %i images and update containers
+
+[Service]
+Type=oneshot
+
+ExecStart=/bin/systemctl reload-or-restart dc@%i
+[Unit]
+Description=Refresh %i images and update containers
+Requires=dc@%i.service
+After=dc@%i.service
+

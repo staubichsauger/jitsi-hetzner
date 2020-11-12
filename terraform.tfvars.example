@@ -1,0 +1,7 @@
+hcloud_token = ""
+dnsname = ""
+email = ""
+
+# Empty to allow everyone to create rooms
+# Set to e.g. test|hello to only allow the test and hello rooms from being created
+rooms = ""
