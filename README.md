@@ -1,3 +1,6 @@
+# ⚠️ Archived ⚠️
+No idea, if this still works. I haven't used it in a while, I just use the BigBlueButton app image provided by Hetzner.
+
 # Deploy a Jitsi Meet instance to the Hetzner Cloud using terraform
 
 This repository contains a [terraform](https://www.terraform.io/) configuration to deploy [Jitsi Meet](https://meet.jit.si/) to the [Hetzner Cloud](https://www.hetzner.com/cloud) using [docker-jitsi-meet](https://github.com/jitsi/docker-jitsi-meet).
